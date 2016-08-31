@@ -5,8 +5,9 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class DateFunctions {
-// date functions
+
 	public static void main(String[] args) {
+		// Date Functions........
 		Date currentdate=new Date();
 		System.out.println(currentdate);
 		DateFormat format=new SimpleDateFormat("dd/MM/YYYY hh:mm:ss:SSS");
